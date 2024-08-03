@@ -13,7 +13,7 @@ const ProjectCard = ({index,name,description,image}) => {
       
       {image && (
         <div className="relative w-full h-[230px]">
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <img src={image} alt={name} className="w-full h-full object-cover rounded-4xl" />
         </div>
       )} 
           <div className="mt-5">
